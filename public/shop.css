@@ -1,0 +1,178 @@
+/* Custom Styles */
+body {
+    background-color: #f8f8f8; /* Offwhite background */
+    color: #333; /* Dark text */
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    background-color: #2C3E50; /* Dark Blue for navbar */
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #f8f8f8;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: #f8f8f8; /* Dark Blue border for hamburger icon */
+    border-width: 2px;
+    background-color: #2c5178; /* Dark Blue background for hamburger icon */
+    border-radius: 4px;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler-icon:hover {
+    border-color: #8E44AD; /* Purple border for hover effect */
+    border-width: 2px;
+    background-color: #c58adf; /* Purple background for hover effect */
+    border-radius: 4px;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #8E44AD; /* Purple for hover effect */
+    color: #fff;
+}
+
+.item-group {
+    margin-bottom: 2rem;
+}
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.item {
+    margin-bottom: 1rem;
+}
+
+.item-group h2 {
+    color: #34495E; /* Dark Green for section titles */
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.card {
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    height: auto;
+    width: auto;
+}
+
+.card-img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-body {
+    background-color: #ecf0f1; /* Light off-white background for items */
+}
+
+/* Make sure the image column (4) and text column (8) are responsive */
+.card .row {
+    display: flex;
+}
+
+.card .row .col-4 {
+    padding: 10px;
+}
+
+.card .row .col-8 {
+    padding: 10px;
+}
+
+.card-title {
+    color:darkslategray; /* Dark Green for item name */
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #ecf0f1; /* Light off-white background for items */
+    padding: 5px 5px;
+
+}
+
+.card-title a {
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: #8E44AD; /* Purple color for item name hover */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-text {
+    color: #7f8c8d; /* Slightly gray text for description */
+}
+
+.card-price {
+    color: #2C3E50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #F39C12; /* Orange for Buy Now button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #E67E22; /* Darker Orange for hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2C3E50; /* Dark Blue footer */
+}
+
+footer p, footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #F39C12; /* Orange for Privacy Policy link */
+}
+
+/* Responsive Styles */
+
+/* Ensure that the card takes full width on smaller screens */
+@media (max-width: 576px) {
+    .card .row {
+        flex-direction: column;
+    }
+    .card .row .col-4 {
+        width: 100%;
+        height: auto;
+    }
+    .card .row .col-8 {
+        width: 100%;
+    }
+}

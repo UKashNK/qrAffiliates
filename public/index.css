@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #6c757d);
+    color: white;
+}
+
+nav {
+    background: linear-gradient(to right, #007bff, #6c757d);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(38, 2, 101);
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: rgb(38, 2, 101); /* Dark Blue border for hamburger icon */
+    border-width: 2px;
+    background-color: #2c5178; /* Dark Blue background for hamburger icon */
+    border-radius: 4px;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler-icon:hover {
+    border-color: rgb(38, 2, 101); /* Purple border for hover effect */
+    border-width: 2px;
+    background-color: #8E44AD; /* Purple background for hover effect */
+    border-radius: 4px;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #8E44AD; /* Purple for hover effect */
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* General Section Styling */
+section {
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+/* Steps List Styling */
+.steps-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.steps-list li {
+    margin-bottom: 1.5rem;
+}
+
+.steps-list h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.steps-list p {
+    margin-left: 1rem;
+    color: #555;
+}
+
+/* Example List Styling */
+.examples-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.example-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #3a424b;
+    margin-bottom: 0.5rem;
+}
+
+.example-item p {
+    margin-left: 1rem;
+    color: #555;
+}
